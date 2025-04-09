@@ -34,7 +34,7 @@ func TestGetAPIKey(t *testing.T) {
 			name:          "Missing token",
 			authHeader:    "ApiKey",
 			expectedKey:   "",
-			expectedError: false,
+			expectedError: true,
 		},
 	}
 
